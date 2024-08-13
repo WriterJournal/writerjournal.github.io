@@ -619,6 +619,15 @@ section {
   color: #fff;
 }
 
+.black{
+  color: #000;
+}
+
+.feature-icon{
+  font-size: 2rem;
+  color: black;
+}
+
 .section-bg {
   background-color: #f5f5ff;
 }
