@@ -1,22 +1,74 @@
-<html>
- <head><link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"><link href="assets/css/style.css" rel="stylesheet">
-  <style>body {padding-bottom: 150px; line-height: 1.6;} blockquote {background: #f9f9f9;border-left: 10px solid #000000;margin: 1.5em 0px;padding: 0.5em 10px;} img {max-width: 100%; height: auto; }   body {padding-bottom: 150px; line-height: 1.6;}</style>
- </head>
- <body>
-  <p style="text-align:center;"><font size="+3"> Backup &amp; restore </font></p>
-  <p>Writer Journal introduces 2 types of local data backup mechanisms. Namely <b><i>Manual backup</i></b> and <b><i>Auto backup</i></b>, you can either backup your documents manually or setup an auto backup schedule to let Writer Journal backup your data periodically.<br></p>
-  <blockquote>
-   Google drive sync feature has been requested many times, we are working hard to implement this feature and hopefully will be available in some future release!
-  </blockquote>
-  <p><font size="+1"> Manual backup </font></p>
-  <p>Please follow the following steps to backup your documents and export it as a single .wjb backup file.(See the screenshots)<br></p>
-  <ul>
-   <li>Navigate to <b><i>Data backup page</i></b></li>
-   <li>Under the <b><i>manual backup tab</i></b>, click <b><i>Backup</i></b> to start the backup procedure</li>
-   <li>Select your destination folder and give your backup file a name and click <i><b>Save</b></i> button</li>
-  </ul>
-  <p>    <center>
-        <div id="carousel0" class="carousel carousel-bright slide mobile-screen" data-bs-ride="carousel">
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Writer Journal Official</title>
+        <meta name="description" content="Writer Journal app official website">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta name="robots" content="all,follow">
+        <link href="assets/img/favicon.png" rel="icon">
+        
+        <!-- Vendor CSS Files -->
+        <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+        <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+        <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+        <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+        <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+        
+
+        <!-- Template Main CSS File -->
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/css/tutorialStyles.css" rel="stylesheet">
+        
+    </head>
+    <body>
+      
+		<header id="header" class="fixed-top d-flex align-items-center header-transparent">
+            <div class="container d-flex align-items-center justify-content-between">
+                <div class="logo">
+                    
+                    <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+                </div>
+                <nav id="navbar" class="navbar">
+            <ul>
+            <li><a class="nav-link scrollto" href="NewFeatures.html">New Features</a></li>
+<li><a class="nav-link scrollto" href="QuickStart.html">Quick Start</a></li>
+<li><a class="nav-link scrollto" href="tutorialIntroduction.html">Introduction</a></li>
+
+            <li class="dropdown"><a href="#"><span>Tutorials</span> <i class="bi bi-chevron-down"></i></a>
+            <ul class = "dropdown-active">
+              <li><a href="BackupAndRestore.html">Backup And Restore</a></li>
+<li><a href="DevTool.html">Dev Tool</a></li>
+<li><a href="Documents.html">Documents</a></li>
+<li><a href="Editor.html">Editor</a></li>
+<li><a href="ExportAndShare.html">Export And Share</a></li>
+<li><a href="Growth.html">Growth</a></li>
+<li><a href="Import.html">Import</a></li>
+<li><a href="MasterLock.html">Master Lock</a></li>
+<li><a href="Settings.html">Settings</a></li>
+<li><a href="TaggingSystem.html">Tagging System</a></li>
+<li><a href="TextAnalysis.html">Text Analysis</a></li>
+<li><a href="TransferFilesBetweenDevices.html">Transfer Files Between Devices</a></li>
+<li><a href="VersionHistory.html">Version History</a></li>
+
+            </ul>
+          </li>
+                        
+          </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+                </nav><!-- .navbar -->
+            </div>
+            
+          </header><!-- End Header -->
+				
+				
+				
+				<!-- ==============Home Section============-->
+				<div style="padding-top: 150px; padding-left: 4%; padding-right: 4%;"><p style="text-align:center;">Backup and restore </p><p>Writer Journal introduces 2 types of local data backup mechanisms. Namely <b><i>Manual backup</i></b> and <b><i>Auto backup</i></b>, you can either backup your documents manually or setup an auto backup schedule to let Writer Journal backup your data periodically.</p><blockquote>Google drive sync feature has been requested many times, we are working hard to implement this feature and hopefully will be available in some future release!</blockquote><p>Manual backup </p><p>Please follow the following steps to backup your documents and export it as a single .wjb backup file.(See the screenshots)</p><ul><li>Navigate to <b><i>Data backup page</i></b></li><li>Under the <b><i>manual backup tab</i></b>, click <b><i>Backup</i></b> to start the backup procedure</li><li>Select your destination folder and give your backup file a name and click <b><i>Save</i></b> button</li></ul><p> <center>
+ <div id="carousel0" class="carousel carousel-bright slide mobile-screen" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carousel0" data-bs-slide-to="0" class="active" aria-current="true"></button><button type="button" data-bs-target="#carousel0" data-bs-slide-to="1"  aria-current="true"></button><button type="button" data-bs-target="#carousel0" data-bs-slide-to="2"  aria-current="true"></button>
   </div>
@@ -32,12 +84,9 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-    </center><br></p>
-  <blockquote>
-   Note that you can also choose <b><i>Google drive</i></b> folder to save the backup file directly to your Google drive account. This way you can also restore it from another device very easily. (See the screenshots)
-  </blockquote>
-  <p>    <center>
-        <div id="carousel1" class="carousel carousel-bright slide mobile-screen" data-bs-ride="carousel">
+</center>
+    </p><blockquote>Note that you can also choose Google drive folder to save the backup file directly to your Google drive account. This way you can also restore it from another device very easily. (See the screenshots) </blockquote><p> <center>
+ <div id="carousel1" class="carousel carousel-bright slide mobile-screen" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true"></button><button type="button" data-bs-target="#carousel1" data-bs-slide-to="1"  aria-current="true"></button><button type="button" data-bs-target="#carousel1" data-bs-slide-to="2"  aria-current="true"></button>
   </div>
@@ -53,17 +102,9 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-    </center><br></p>
-  <p><font size="+1"> Manual restore </font></p>
-  <p>Please follow the steps below to manually restore your exported backup.<br></p>
-  <ul>
-   <li>Go to Data backup page</li>
-   <li>Click restore button under Manual tab</li>
-   <li>Click OK to start selecting your backup file</li>
-   <li>Select your backup .wjb file and wait until Writer Journal restore your data</li>
-  </ul>
-  <p>    <center>
-        <div id="carousel2" class="carousel carousel-bright slide mobile-screen" data-bs-ride="carousel">
+</center>
+    </p><p>Manual restore </p><p>Please follow the steps below to manually restore your exported backup.</p><ul><li>Go to Data backup page</li><li>Click restore button under Manual tab</li><li>Click OK to start selecting your backup file</li><li>Select your backup .wjb file and wait until Writer Journal restore your data</li></ul><p> <center>
+ <div id="carousel2" class="carousel carousel-bright slide mobile-screen" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active" aria-current="true"></button><button type="button" data-bs-target="#carousel2" data-bs-slide-to="1"  aria-current="true"></button><button type="button" data-bs-target="#carousel2" data-bs-slide-to="2"  aria-current="true"></button><button type="button" data-bs-target="#carousel2" data-bs-slide-to="3"  aria-current="true"></button><button type="button" data-bs-target="#carousel2" data-bs-slide-to="4"  aria-current="true"></button>
   </div>
@@ -79,22 +120,9 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-    </center><br></p>
-  <p><font size="+1"> Auto backup &amp; restore </font></p>
-  <p>Please follow the following steps to setup an auto backup schedule. (See the screenshots)<br></p>
-  <ul>
-   <li>Navigate to <b><i>Settings page</i></b></li>
-   <li>Click <b><i>Home folder</i></b> if you haven't yet specified a home folder for Writer Journal</li>
-   <li>Select a folder for Writer Journal to use as a home folder, your auto backup files will be stored there, these files will not get deleted even if you accidentally deleted the app</li>
-   <li>Now still in Settings page, click <b><i>Auto backup</i></b> and select an appropriate auto backup interval, I selected <b><i>hourly</i></b></li>
-   <li>Congratulations, you have successfully setup an auto backup schedule</li>
-   <li>Navigate to <b><i>Data backup page</i></b></li>
-   <li>Under the <b><i>Auto backup tab</i></b>, you will find your auto backup files appear there once it started to backup your documents. The first backup file will appear after an hour in this example</li>
-   <li>You can click <b><i>restore</i></b> button to restore all of your documents</li>
-   <li>Click <b><i>OK</i></b> to start the restore process</li>
-  </ul>
-  <p>    <center>
-        <div id="carousel3" class="carousel carousel-bright slide mobile-screen" data-bs-ride="carousel">
+</center>
+    </p><p>Auto backup & restore </p><p>Please follow the following steps to setup an auto backup schedule. (See the screenshots)</p><ul><li>Navigate to <b><i>Settings page</i></b></li><li>Click <b><i>Home folder</i></b> if you haven't yet specified a home folder for Writer Journal</li><li>Select a folder for Writer Journal to use as a home folder, your auto backup files will be stored there, these files will not get deleted even if you accidentally deleted the app</li><li>Now still in Settings page, click <b><i>Auto backup</i></b> and select an appropriate auto backup interval, I selected <b><i>hourly</i></b></li><li>Congratulations, you have successfully setup an auto backup schedule</li><li>Navigate to <b><i>Data backup page</i></b></li><li>Under the <b><i>Auto backup tab</i></b>, you will find your auto backup files appear there once it started to backup your documents. The first backup file will appear after an hour in this example</li><li>You can click <b><i>restore</i></b> button to restore all of your documents</li><li>Click <b><i>OK</i></b> to start the restore process</li></ul><p> <center>
+ <div id="carousel3" class="carousel carousel-bright slide mobile-screen" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active" aria-current="true"></button><button type="button" data-bs-target="#carousel3" data-bs-slide-to="1"  aria-current="true"></button><button type="button" data-bs-target="#carousel3" data-bs-slide-to="2"  aria-current="true"></button><button type="button" data-bs-target="#carousel3" data-bs-slide-to="3"  aria-current="true"></button><button type="button" data-bs-target="#carousel3" data-bs-slide-to="4"  aria-current="true"></button><button type="button" data-bs-target="#carousel3" data-bs-slide-to="5"  aria-current="true"></button><button type="button" data-bs-target="#carousel3" data-bs-slide-to="6"  aria-current="true"></button><button type="button" data-bs-target="#carousel3" data-bs-slide-to="7"  aria-current="true"></button><button type="button" data-bs-target="#carousel3" data-bs-slide-to="8"  aria-current="true"></button>
   </div>
@@ -110,10 +138,30 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-    </center><br></p>
-  <blockquote>
-   Warning ⚠️, restore will delete all of your current documents and folders, always make sure you have backup your data before any restore process.
-  </blockquote>
-  <p></p>
- <br><br><br><br><br><script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script></body>
+</center>
+    </p><blockquote>Warning ⚠️, restore will delete all of your current documents and folders, always make sure you have backup your data before any restore process. </blockquote><p></p><br><br><br><br><br></div>
+				
+				<!-- =============Home End=================-->
+				
+				<script type="text/javascript">
+          function googleTranslateElementInit() {
+              new google.translate.TranslateElement(
+                  {pageLanguage: 'en'},
+                  'google_translate_element'
+              );
+          }
+      </script>
+        <!-- Vendor JS Files -->
+                        <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+                        <script src="assets/vendor/aos/aos.js"></script>
+                        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+                        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+                        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+                        <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                        
+                        <!-- JavaScript -->
+                        
+                        <script src="assets/js/main.js"></script>
+                        
+    </body>
 </html>
